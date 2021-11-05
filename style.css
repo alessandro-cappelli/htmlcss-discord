@@ -41,6 +41,7 @@ nav ul li{
     height: 500px;
     overflow: hidden;
     position: relative;
+    background-position: center;
 }
 
 
@@ -96,3 +97,109 @@ nav ul li{
 /* header */
 
 /* main */
+.section1{
+    position: relative;
+    height: 75vh;
+}
+.img-position1{
+    position: absolute;
+    left: 25%;
+    top: 100px;
+}
+
+.title2{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 136px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 289px;
+}
+
+.sotto-titolo2{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 392px;
+    width: 266px;
+    line-height: 25px;
+}
+
+/* immagine 2 */
+.section2{
+    position: relative;
+    height: 75vh;
+    background-color: #F6F6F6;  
+}
+
+.img-position2{
+    position: absolute;
+    right: 25%;
+    top: 100px;
+}
+
+.title3{
+    display: inline-block;
+    position: absolute;
+    top: 136px;
+    left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    width: 289px;
+}
+
+.sotto-titolo3{
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+    top: 246px;
+    width: 266px;
+    line-height: 25px;
+}
+
+/* immagine3 */
+.section3{
+    position: relative;
+    height: 75vh;   
+}
+
+.img-position3{
+    position: absolute;
+    left: 25%;
+    top: 100px;
+}
+
+.title4{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 136px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 289px;
+}
+
+.sotto-titolo4{
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 246px;
+    width: 266px;
+    line-height: 25px;
+}
+
+/* immagine 4 */
+.section4{
+    position: relative;
+    height: 100vh;
+    background-color: #F6F6F6;
+}
+
+.title5{
+    display: inline-block;
+    position: absolute;
+    left: 50%;;
+    font-size: 40px;
+    font-weight: bold;    
+}
